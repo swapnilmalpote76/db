@@ -11,7 +11,7 @@ from .forms import *
 
 # Create your views here.
 def home(request):
-    print("b")
+
     Employee = employee.objects.all()
     # Employee = employee.objects.filter(age=21)
     # print(Employee)
